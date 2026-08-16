@@ -24,5 +24,5 @@ let hasCompletedCourse = true
 let givesCertificate = true
 
 function generateCertificate() {
-    console.log("generating certificate..")
+    console.log("generating certificate...")
 }
