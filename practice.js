@@ -20,9 +20,13 @@
 //     greetings.textContent += sentence[i] + " "
 // }
 
-let hasCompletedCourse = true
-let givesCertificate = true
+// let hasCompletedCourse = true
+// let givesCertificate = true
 
-function generateCertificate() {
-    console.log("generating certificate...")
-}
+// function generateCertificate() {
+//     console.log("generating certificate...")
+// }
+
+const exerciseTimeMins = 40
+
+const message = exerciseTimeMins < 30 ? 'You need to try harder' : exerciseTimeMins < 60 ? 'Doing good!' : 'Excellent!'
