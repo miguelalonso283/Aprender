@@ -27,6 +27,13 @@
 //     console.log("generating certificate...")
 // }
 
-const exerciseTimeMins = 40
+// const exerciseTimeMins = 40
 
-const message = exerciseTimeMins < 30 ? 'You need to try harder' : exerciseTimeMins < 60 ? 'Doing good!' : 'Excellent!'
+// const message = exerciseTimeMins < 30 ? 'You need to try harder' : exerciseTimeMins < 60 ? 'Doing good!' : 'Excellent!'
+// console.log(message)
+
+const playerGuess = 3
+const correctAnswer = 6
+
+const message = playerGuess === correctAnswer ? 'Correct!' : playerGuess < correctAnswer ? 'Higher' : 'Lower'
+console.log(message)
