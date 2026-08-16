@@ -13,9 +13,16 @@
 //     console.log(messages[i])
 // }
 
-let sentence = ["Hello","my","name","is","Miguel"]
-let greetings = document.getElementById("greetings-el")
+// let sentence = ["Hello","my","name","is","Miguel"]
+// let greetings = document.getElementById("greetings-el")
 
-for (let i = 0; i < sentence.length; i++) {
-    greetings.textContent += sentence[i] + " "
+// for (let i = 0; i < sentence.length; i++) {
+//     greetings.textContent += sentence[i] + " "
+// }
+
+let hasCompletedCourse = true
+let givesCertificate = true
+
+function generateCertificate() {
+    console.log("generating certificate...")
 }
